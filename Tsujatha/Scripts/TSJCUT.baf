@@ -1,0 +1,43 @@
+/*IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId("TSUJATH")
+    ReallyForceSpell(Myself,CLERIC_AURA_OF_FLAMING_DEATH)
+    ScreenShake([5.5],5)
+    ReallyForceSpell(Myself,WIZARD_WAIL_OF_THE_BANSHEE)
+    Wait(1)
+    DropInventory()
+    ReallyForceSpell(Myself,RED_EFFECT)
+
+    Wait(2)
+
+    ActionOverride("TSUJATH",LeaveParty())
+    ActionOverride("TSUJATH",MoveGlobal("AR1604","TSUJATH",[203.108]))
+    EndCutSceneMode()
+
+    Wait(1)
+END
+*/
+
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId("TSUJATH")
+    ReallyForceSpell(Myself,CLERIC_AURA_OF_FLAMING_DEATH)
+    ScreenShake([5.5],5)
+    ReallyForceSpell(Myself,WIZARD_WAIL_OF_THE_BANSHEE)
+    Wait(1)
+    DropInventory()
+    ReallyForceSpell(Myself,RED_EFFECT)
+
+    Wait(2)
+
+    ActionOverride("TSUJATH",LeaveParty())
+    ActionOverride("TSUJATH",MoveGlobal("AR1604","TSUJATH",[203.108]))
+    ActionOverride("BODHIAMB",ReallyForceSpell(Myself,DRYAD_TELEPORT))
+    EndCutSceneMode()
+
+    Wait(1)
+END

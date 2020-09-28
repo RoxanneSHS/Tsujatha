@@ -1,0 +1,8 @@
+IF
+  Global("FlanExists","AR0511",0)
+  InParty("Tsujath")
+THEN
+ RESPONSE #100
+  SetGlobal("FlanExists","AR0511",1)
+  CreateCreature("FLAN",[166.809],11)
+END

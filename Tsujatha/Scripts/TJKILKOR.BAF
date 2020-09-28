@@ -1,0 +1,15 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId("TSUJATH")
+		Wait(1)
+		SmallWait(5)
+		FaceObject("Korgan")
+		SmallWait(5)
+		ActionOverride("Korgan",FaceObject("TSUJATH"))
+		ForceSpell("Korgan",FLASHY_DEATH_3)
+		Wait(1)
+		EndCutSceneMode()
+
+END

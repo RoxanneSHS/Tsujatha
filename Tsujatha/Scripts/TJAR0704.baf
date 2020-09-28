@@ -1,0 +1,10 @@
+IF
+  OR(2)
+  Global("TsujathaRomanceActive","GLOBAL",1)
+  Global("TsujathaRomanceActive","GLOBAL",2)
+  Global("ArlluviaExists","AR0704",0)
+THEN
+ RESPONSE #100
+  SetGlobal("ArlluviaExists","AR0704",1)
+  CreateCreature("TSJFLIRT",[380.470],9)
+END

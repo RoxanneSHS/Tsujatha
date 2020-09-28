@@ -1,0 +1,61 @@
+IF
+  !Global("TsujathaRomanceActive","GLOBAL",0)
+  !Global("TsujathaRomanceActive","GLOBAL",3)
+  Global("TsujathaMatch","GLOBAL",1)
+  See(Player1)
+  CombatCounter(0)
+OR(2)
+  Global("TsujathaLoveTalkTOB","LOCALS",5)
+  Global("TsujathaLoveTalkTOB","LOCALS",13)
+THEN
+ RESPONSE #100
+  IncrementGlobal("TsujathaLoveTalkTOB","LOCALS",1)
+  RealSetGlobalTimer("TsujathaLoveTalkTimeTOB","GLOBAL",1)
+  Interact(Player1)
+END
+
+
+IF
+  !Global("TsujathaRomanceActive","GLOBAL",0)
+  !Global("TsujathaRomanceActive","GLOBAL",3)
+  Global("TsujathaMatch","GLOBAL",1)
+  Global("TsuGodTalk","GLOBAL",1)
+  See(Player1)
+  CombatCounter(0)
+THEN
+ RESPONSE #100
+  IncrementGlobal("TsuGodTalk","GLOBAL",1)
+  Interact(Player1)
+END
+
+
+
+IF
+  !Global("TsujathaRomanceActive","GLOBAL",0)
+  !Global("TsujathaRomanceActive","GLOBAL",3)
+  Global("TsujathaMatch","GLOBAL",1)
+  Global("TsuWraithSillara","GLOBAL",0)
+  Global("TsuPostWraithTalk","GLOBAL",2)
+  See(Player1)
+  CombatCounter(0)
+THEN
+ RESPONSE #100
+  IncrementGlobal("TsuPostWraithTalk","GLOBAL",1)
+  IncrementGlobal("TsuWraithSillara","GLOBAL",1)
+  Interact(Player1)
+END
+
+
+IF
+  !Global("TsujathaRomanceActive","GLOBAL",0)
+  !Global("TsujathaRomanceActive","GLOBAL",3)
+  Global("TsujathaMatch","GLOBAL",1)
+  Global("TsuChildrenLT","GLOBAL",1)
+  See(Player1)
+  CombatCounter(0)
+THEN
+ RESPONSE #100
+  IncrementGlobal("TsuChildrenLT","GLOBAL",1)
+  Interact(Player1)
+END
+

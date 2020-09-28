@@ -1,0 +1,13 @@
+IF
+ See(Player1)
+ OR(2)
+ Global("TsujathaRomanceActive","GLOBAL",1)
+ Global("TsujathaRomanceActive","GLOBAL",2)
+ Global("TSJFlirtTalk","LOCALS",0)
+ CombatCounter(0)
+THEN
+RESPONSE #100
+ SetGlobal("TSJFlirtTalk","LOCALS",1)
+ Dialogue(Player1)
+END
+

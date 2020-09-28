@@ -1,0 +1,93 @@
+@0    = ~Who are you?~
+@1    = ~I am <CHARNAME> of Candlekeep.~
+@2    = ~I have no business with you.~
+@3    = ~Well, where is Javin? Do not delay so!~
+@4    = ~Have you returned unsuccessful, Melalor?~
+@5    = ~So, the Melalor has found me.~
+@6    = ~I have indeed. Now, speak.~
+@7    = ~Ah. Well, I *can* tell you what you want to know, but I won't.~
+@8    = ~That is, not unless you do a little something for me.~
+@9    = ~(Tsujatha raises his eyebrows.) Indeed? I think not.~
+@10   = ~You *will* tell me what I want to know *now*!~
+@11   = ~(You see Tsujatha begin the incantation for a spell, one you recognize as a
+method of torture.)~
+@12   = ~Tsujatha, stop!~
+@13   = ~Go, Tsujatha! Go, Tsujatha!~
+@14   = ~(Watch and do nothing.)~
+@15   = ~Wait, Tsujatha! Let us explore other avenues.~
+@16   = ~Tsujatha, why did you start without me? I'll go fetch the red-hot pincers and razors!~
+@17   = ~Please, no!~
+@18   = ~(Tsujatha ignores Flan Brel and turns to you.)~
+@19   = ~Why? He knows where that thief Sorkyst is, and this is the quickest way of getting that information.~
+@20   = ~Oh, my bad. Please, continue.~
+@21   = ~Need any help to speed up the process?~
+@22   = ~But Tsujatha, shall we not try to resolve this peacefully? He's just a contact.
+Perhaps this thing he wants done will give us more clues.~
+@23   = ~But Tsujatha, torturing someone is wrong. We must find another way!~
+@24   = ~Help!~
+@25   = ~Do you enjoy pain, Flan Brel?~
+@26   = ~ *Cough*  N-no more!~
+@27   = ~Shall I continue, Flan Brel? Or is your tongue sufficiently loosened?~
+@28   = ~I'll talk! I'll talk!~
+@29   = ~You weak-willed worm. You disappoint me.~
+@30   = ~I had thought you would hold out longer, and I was so looking forward to breaking you.~
+@31   = ~This is not good sport. But we do what we must. Speak!~
+@32   = ~My master, Sorkyst, instructed me to tell his men to meet him at a place called the North Forest.~ ~I cannot tell you where they are, for I do not know.~
+@33   = ~Your help is greatly appreciated.~
+@34   = ~Let me repay the kindness by helping you into the next life!~
+@35   = ~Help me!~
+@36   = ~I think I can manage. (He gives you a sly wink.)~
+@37   = ~You smile in return as Tsujatha goes on with his spell.~
+@38   = ~Please, help!~
+@39   = ~That is not likely. He will tell me what I want to know without further delay!~
+@40   = ~All right, Tsujatha. Do what you must.~
+@41   = ~No, I must insist we find another way.~
+@42   = ~Thank you!~
+@43   = ~Your scruples do you credit, <CHARNAME>, though I do not share them.~
+@44   = ~I consent to your request to pursue other, non-violent, avenues.~
+@45   = ~Speak, Flan Brel. What is this task you have for us?~
+@46   = ~An associate of mine, Javin, has been imprisoned.~
+@47   = ~He's been accused by the city guard of multiple crimes against the government of Athkatla.~
+@48   = ~It's terrible...all these false charges. I want you to get him out.~
+@49   = ~What do you think, <CHARNAME>?~
+@50   = ~Shall I not simply make him tread the path of pain to find out what I need to know?~
+@51   = ~No, Tsujatha. Though I do not like this idea, I think it better than killing this man.~
+@52   = ~No, Tsujatha. I hate the guards in this city--and the Cowled Wizards lording it over everyone. If I can cross them anyway, I bless myself every way.~
+@53   = ~Yes, yes!~
+@54   = ~Speak on, then, lackey.~
+@55   = ~There will be a guard on his door. I'm sure you'll have no trouble *convincing* him to let my friend go free.~
+@56   = ~He's being held in the Government District prison.~
+@57   = ~Return Javin to me, and I will give you the information you seek.~
+@58   = ~We will return. Do not think to flee.~
+@59   = ~I have found and slain all your associates. Do not think I cannot find you.~
+@60   = ~Ah. Success.~
+@61   = ~Did you expect otherwise?~
+@62   = ~And how, might I ask, did you manage to secure his release?~
+@63   = ~I bribed the official.~
+@64   = ~I killed the guard and pillaged his body for the key.~
+@65   = ~It does not matter. I have been successful.~
+@66   = ~With manipulation skills like that, you'd be a great ally of the Shadow Thieves. Or a fit companion of the Melalor.~
+@67   = ~Enough! Tell me where Sorkyst is.~
+@68   = ~(Magical energy leaps and crackles across Tsujatha's fingertips as his impatience builds.)~
+@69   = ~Yes, of course. My former master, Sorkyst, instructed me to tell his men to meet him at a place called the North Forest.~
+@70   = ~I cannot tell you where they might be. I do not know.~
+@71   = ~No, Tsujatha! You have entered into a contract with this man. You cannot take his life now. It would be dishonorable.~
+@72   = ~Recover the Riose Sar for Tsujatha.
+
+We have rescued Javin for Flan Brel, and in exchange we have learned that Sorkyst can be found in the North Forest. I was successful in persuading Tsujatha not to kill Flan Brel.~
+@73   = ~Recover the Riose Sar for Tsujatha.
+
+We have rescued Javin for Flan Brel, and we have learned that Sorkyst can be found in the North Forest. After giving us this information, Flan Brel met with his untimely demise at the hands of Tsujatha.~
+@74   = ~(Flan Brel relaxes visibly.)~
+@75   = ~You advise me well, <CHARNAME>. A heart akin to a Tamari's beats in your breast.~
+@76   = ~(Tsujatha turns away, deliberately avoiding your eyes.)~
+@77   = ~NOOOOOOO!!!~
+@78   = ~(Tsujatha smiles grimly.)~
+@79   = ~I suspected as much. After all, the Melalor travels with you.~
+@80   = ~I cannot tell you where that might be. I do not know.~
+@81   = ~So you, too, can keep your own counsel. How will you fare when *he* turns against you, I wonder?~
+@82   = ~(Flan Brel's eyes are fixed on Tsujatha, despite the fact that he is addressing you, and you have no doubt of whom he speaks.)~
+
+
+
+

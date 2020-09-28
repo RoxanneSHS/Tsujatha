@@ -1,0 +1,128 @@
+@0    = ~Are you, too, one of Sorkyst's goons?~
+@1    = ~Yes, I am. He sends his greetings.~
+@2    = ~No, I am not.~
+@3    = ~Who's Sorkyst?~
+@4    = ~I might ask the same of you!~
+@5    = ~I was, but then I killed him and took his job.~
+@6    = ~Then die!~
+@7    = ~Who ARE you then?~
+@8    = ~I am <CHARNAME>. Who are you?~
+@9    = ~I am a bored adventurer who likes to kill all wizards he comes across.~
+@10   = ~Some call me the Space Cowboy; some call me the Gangster of Love.~
+@11   = ~Who I am is no concern of yours. Why are you here?~
+@12   = ~I am Tsujatha Melalor.~
+@13   = ~Greetings. What are you doing here?~
+@14   = ~I seek something that was stolen from me.~
+@15   = ~(sizing up Tsujatha) You're a bit tall for an Elf.~
+@16   = ~Suddenly, inexplicably, I no longer care. Goodbye.~
+@17   = ~What was stolen from you? By whom?~
+@18   = ~?????~
+@19   = ~No, seriously, though. I am <CHARNAME>. Who are YOU?~
+@20   = ~I seek Sorkyst, the thief of my treasure.~
+@21   = ~Oh, yeah. That chump? I just kicked his ass a few minutes ago, but I didn't find any treasure.~
+@22   = ~Join with me, and I will aid you in recovering what was stolen from you.~
+@23   = ~What treasure might that be?~
+@24   = ~Yes, what of it?~
+@25   = ~No, I mean REALLY tall.~
+@26   = ~Don't get smart with me. I'll reduce that stature of yours real quick.~
+@27   = ~I would rather not speak of the treasure, but I will tell you whole stole it from me.~
+@28   = ~His name is Sorkyst. Have you heard of him?~
+@29   = ~No. Who is he?~
+@30   = ~No, nor do I care! Your tale bores me.~
+@31   = ~Sorkyst is my blood-brother, and if he is your enemy, then I am your enemy!~
+@32 = ~(Tsujatha studies you for a moment.) You mock me, <SIRMAAM>. Such words call death upon you!~
+@33   = ~(Tsujatha takes a defensive step back.) You are quick to make friends! I am unaccustomed to such easy trust.~
+@34   = ~Strangely, it is refreshing. I will join you and aid you, in exchange for the service you offer me.~
+@35   = ~ Let us go then to Flan Brel. He is the contact Sorkyst's men were to meet for their instructions.~
+@36   = ~ Flan Brel is to be found in some inn near the bridge of Athkatla.~
+@37   = ~(Tsujatha blinks.) AND?~
+@38   = ~Well, the Elves I know are about a meter-and-a-half. You're fully two meters!~
+@39   = ~ All right. Perhaps this is because I'm not from your world.~
+@40   = ~Where are you from?~
+@41   = ~I don't hold with foreigners!~
+@42   = ~I am from Gilalion.~
+@43   = ~Well, that was educational. Why don't you join us?~
+@44   = ~And what do you do?~
+@45   = ~Gilalion? My grandma was killed by some of you Gilalion-ers. Die!~
+@46   = ~I am a Miri . . . er, wizard, as you call them.~
+@47   = ~A wizard? That's just what I need for my group. Why not tag along?~
+@48   = ~Hey, I'm with Valygar! I hate wizards.~
+@49   = ~I have no need of a wizard.~
+@50   = ~And I have no need of a meat-shield. Begone!~
+@51   = ~He is, I believe, a denizen of this world who has stolen something from me. I am here to reclaim it.~
+@52   = ~What has he stolen?~
+@53   = ~I grow weary of your prattle. Muzzle it!~
+@54   = ~An heirloom of my house. I will say no more.~
+@55   = ~You seem to be in earnest. Join me, and I will aid you.~
+@56   = ~You mean this? (Pull a rock out of your shoe.) Luckily for you, I've been carrying this with me all day.~
+@57   = ~I might be able to help you, but I need to know more.~
+@58   = ~About the treasure itself, I shall tell you no more.~
+@59   = ~I have told you it is a family heirloom, and that explanation must suffice.~
+@60   = ~As for Sorkyst, he is some kind of giant, fell and powerful, and rich. If I must, I will seek him alone.~
+@61   = ~Very well. You may have the heirloom, but if we are to risk our lives for your quest, we want the rest of the treasure.~
+@62   = ~Then seek him alone.~
+@63   = ~That is what I had always intended.~
+@64   = ~Treasure?  I care nothing for gold and silver. Keep it all. I want only the Riose Sar.~
+@65   = ~Riose Sar? What does THAT mean?~
+@66   = ~Were I to tell you, you would no doubt discover the identity of my heirloom.~
+@67   = ~Be a bastard then. Seek your precious heirloom alone.~
+@68   = ~Fine. The treasure then is ours, and perhaps through time our relationship will not be as mercenary as it is now.~
+@69   = ~Perhaps. Your willingness to help me in my quest is remarkable, and I will not forget your assistance.~
+@70   = ~I am Tsujatha Melalor. I have no reason to hide my identity.~
+@71   = ~Aha! Just as I thought! At him, boys!~
+@72   = ~Nor I. I am <CHARNAME>. Well met.~
+@73   = ~I tire of your wearisome prattle.~
+@74   = ~'Well met'? Is that what you say here?~
+@75   = ~Where are YOU from?~
+@76   = ~You got a problem with the way I talk?~
+@77   = ~If you cannot understand THAT much Common, you're hopeless!~
+@78   = ~No, indeed. (Tsujatha bows mockingly.) Forgive my careless words. I am newly arrived in this land.~
+@79   = ~Yeah, you are wise to show me the proper respect.~
+@80   = ~Apology accepted. What are you doing here?~
+@81   = ~Only a fool would dare speak to me in that tone!~
+@82   = ~Indeed, but shall we stand here all day exchanging pleasantries?~
+@83   = ~Yes. I came into Athkatla with no other view!~
+@84   = ~Of course. Enough chit-chat. What are you doing here?~
+@85   = ~Then perhaps you would like to bandy words with the knights in the next room. Good day.~
+
+
+@5000 = ~Recover the Riose Sar for Tsujatha.
+
+Tsujatha Melalor has joined my party. He is in search of a family heirloom, which I have agreed to help him find. Our first lead is to speak to Flan Brel in the Bridge district.~
+
+@5001 = ~Recover the Riose Sar for Tsujatha.
+
+After some quite effective *persuasion* on Tsujatha's part, Flan Brel has betrayed his master to us. Sorkyst can be found in the North Forest. After giving us this information, Flan Brel met with his untimely demise at the hands of Tsujatha.~
+
+@5002 = ~Recover the Riose Sar for Tsujatha.
+
+We have agreed to go to the Prison to rescue a man named Javin for Flan Brel. In return, Flan Brel has promised to give us the location of Sorkyst, the thief of Tsujatha's treasure.~
+
+@5003 = ~Recover the Riose Sar for Tsujatha.
+
+We have rescued Javin for Flan Brel, and in exchange we have learned that Sorkyst can be found in the North Forest. I was successful in persuading Tsujatha not to kill Flan Brel.~
+
+@5004 = ~Recover the Riose Sar for Tsujatha.
+
+We have rescued Javin for Flan Brel, and we have learned that Sorkyst can be found in the North Forest. After giving us this information, Flan Brel met with his untimely demise at the hands of Tsujatha.~
+
+@5005 = ~Recover the Riose Sar for Tsujatha.
+
+We have rescued Javin from his captors, and we are to return to Flan Brel for the information he has promised us. I hope for his sake that he keeps his word. I may not be able to keep Tsujatha in check if Flan Brel betrays our trust.~
+
+@5006 = ~Recover the Riose Sar for Tsujatha.
+
+We have found Sorkyst, the thief of Tsujatha's heirloom, and we have slain him. Tsujatha again has the ring of his father, but he has decided to remain with me, to finish my quest.~
+
+@5007 = ~Recover the Riose Sar for Tsujatha.
+
+We have found Sorkyst, the thief of Tsujatha's heirloom, and we have slain him. I have sent Tsujatha away. I doubt I ever see him again.~
+
+@5008 = ~Recover the Riose Sar for Tsujatha.
+
+We have found Sorkyst, the thief of Tsujatha's heirloom, and we have slain him. Tsujatha again has the ring of his father, but he has decided to remain with me, perhaps for personal reasons.~
+
+@5009 = ~Recover the Riose Sar for Tsujatha.
+
+We have found Sorkyst, the thief of Tsujatha's heirloom, and we have slain him. Tsujatha again has the ring of his father, but he has decided to remain with me. His love for me is truly without limit.~
+

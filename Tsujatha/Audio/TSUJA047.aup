@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<audacityproject projname="you have shared_data" version="1.1.0" audacityversion="1.2.1" sel0="0.0000000000" sel1="7.6307075437" vpos="0" h="0.0000000000" zoom="68.6699099657" rate="44100.000000" >
+	<tags title="" artist="" album="" track="-1" year="" genre="-1" comments="" id3v2="1" />
+	<wavetrack name="you have shared" channel="2" linked="0" offset="0.00000000" rate="44100.000000" gain="1.000000" pan="0.000000" >
+		<sequence maxsamples="524288" sampleformat="131073" numsamples="335872" >
+			<waveblock start="0" >
+				<simpleblockfile filename='b00001.au' len='335872' min='-0.857053' max='0.997040' rms='0.044914'/>
+			</waveblock>
+		</sequence>
+		<envelope numpoints='0'>
+		</envelope>
+	</wavetrack>
+</audacityproject>

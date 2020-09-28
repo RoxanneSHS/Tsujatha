@@ -1,0 +1,9 @@
+IF
+  PartyHasItem("MISCBP")
+  Global("TsujathaRomanceActive","GLOBAL",2)
+  Global("ChlProxyExists","AR0809",0)
+THEN
+ RESPONSE #100
+  SetGlobal("ChlProxyExists","AR0809",1)
+  CreateCreature("ChlProxy",[1743.243],7)
+END

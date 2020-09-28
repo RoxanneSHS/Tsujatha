@@ -1,0 +1,25 @@
+IF
+ See("TSUJATH")
+ Global("SorkystFight","GLOBAL",0)
+ Global("SeeTsujatha","GLOBAL",0)
+ CombatCounter(0)
+THEN
+RESPONSE #100
+ SetGlobal("SeeTsujatha","GLOBAL",1)
+ StartDialogNoSet("TSUJATH")
+END
+
+IF
+ Global("SorkystFight","GLOBAL",1)
+ Allegiance(Myself,NEUTRAL)
+THEN
+RESPONSE #100
+ Enemy()
+END
+
+IF
+ See(NearestEnemyOf(Myself))
+THEN
+ RESPONSE #100
+   AttackReevaluate(NearestEnemyOf(Myself),15)
+END

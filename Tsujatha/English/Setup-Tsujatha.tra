@@ -1,0 +1,159 @@
+@0    = ~Tsujatha created by Sillara of the Tamari~
+@1    = ~Tsujatha~
+@2    = ~When asked about his past, TSUJATHA is unfailingly silent. You are left with mere observation. Tsujatha stands fully two meters tall, and his frame has the lean, cat-like muscle you would expect of an Elven warrior. His wide-apart silver eyes are keen, and his chin is stubborn. He wears the typical robes of a mage, but he is partial to greens and blacks. You do not recall seeing him in any other color. When questioned about his background Tsujatha is reticent; he refuses to say more than that he was of high birth. He is obviously an accomplished wizard, and his intelligence astonishes you. Tsujatha carries himself with such an unconscious ease that he would seem arrogant if he were less reserved. As it is, you find that he listens more than he speaks, and that he observes everyone with the eye of a bird of prey.~
+@3    = ~Flan Brel~
+@4    = ~Sorkyst~
+@5    = ~Chiel's Proxy~
+@6    = ~Javin~
+@7    = ~Javin's Guard~
+@8    = ~Sorkyst's Giant~
+@9    = ~Sorkyst's Ettin~
+@10   = ~Sillara~
+@11   = ~Fireheart~
+@12   = ~This necklace is Tsujatha's gift to <CHARNAME>.  Forged of Tsujatha's magic, the chain is lovely gold, and the pendant, a blood-colored gemstone cut into a multi-faceted star, is even more beautiful.  This gift, in addition to symbolizing the love Tsujatha bears for <CHARNAME>, also bears witness to his desire to protect her.
+
+Statistics:
+Immunity to Level Drain
+Immunity to Imprisonment~
+@13   = ~Sillara's Ring~
+@14   = ~This ring, set with a strange blue-black stone, never leaves Tsujatha's finger. When asked about the ring, Tsujatha says that it was Sillara's gift to him, given to aid and protect him. Who Sillara is, or was, he does not say.
+Statistics:
+Base AC: 5
+1 bonus spell per level
+
+Usable by:
+Tsujatha~
+@15   = ~This ring, set with a strange blue-black stone, never leaves Tsujatha's finger. When asked about the ring, Tsujatha says that it was Sillara's gift to him, given to aid and protect him. Who Sillara is, or was, he does not say.
+
+Statistics:
+Base AC: 5
+1 bonus spell per level
+
+Usable by:
+Tsujatha~
+@16   = ~Full Plate Mail~
+@17   = ~Lothaullan~
+@18   = ~This plate mail is obviously highly enchanted.~
+@19   = ~Where Sorkyst obtained this mail is a mystery, for this magical full plate mail was forged in the Outer Planes, in Arborea. Lothaullan seems to have been imbued with some of the mischief and good fortune inherent in that plane. It is light and easy to wear, and changes its appearance to suit the wearer.
+
+Statistics:
+Armor Class: -2
++2 Luck Bonus
+Weight: 20~
+@20   = ~Sorkyst's Axe~
+@21   = ~Vahldiek~
+@22   = ~Sorkyst's axe pulsates with magic.~
+@23   = ~This axe is so large that it functions as a halberd for humanoids. It radiates a dark, malignant energy and seems almost to have a will of its own. Only the most black-hearted - or foolhardy - of adventurers would consider wielding it.
+
+Statistics
+Alignment set to CE
+THAC0: +3
+Damage: 1d12+3/1d12+3
+Level drain upon successful hit
+Requires 18 Str
+
+Not Usable by:
+Paladins~
+@24   = ~Riose Sar~
+@25   = ~This ring of carven diamond is the Riose Sar, the heirloom Tsujatha has crossed the Planes to find. Though its virtue is now lost, Tsujatha treasures it nonetheless. Its name, Tsujatha tells you, means Diamond Shield.~
+@26   = ~When <CHARNAME> took her place amongst the gods of Toril, Tsujatha found that the light had vanished from his eyes.  For a time he wandered on the face of Faerun, physically blinded by his loss.  The new order of priests of <CHARNAME> found him and took him in, honoring him as the consort of their goddess, but even they could not keep him long.  Tsujatha vanished from their high temple, and he was not seen on Faerun again.  There is but a single legend which mentions his name, a Planar legend of Mount Celestia.  On the seventh level of Mount Celestia where <CHARNAME> took her place, there was once seen an Elf, tall, raven-haired and golden-skinned.  When asked his name he gave no answer, but he was admitted into the presence of the goddess.  The source of the legend was the solar in attendance on <CHARNAME>, and her tale was that Tsujatha was to have been translated to join the divine <CHARNAME>, but instead the Elf was consumed from within by white-hot fires.  The goddess wept then, and from that time <CHARNAME> has taken under her authority all those who are crossed in love.~
+@27   = ~Upon the ascension of <CHARNAME> into godhood, Tsujatha did not remain on Toril.  The Planar Sphere was soon missing from Athkatla, and the Cowled Wizards could do nothing to prevent it.  The Elven necromancer went Plane-walking once more.  But the legend of Tsujatha Melalor endured on Toril, and the silver gaze of Tsujatha lured more than one maiden to her doom in the Planes.  Bards of Faerun, to whom he was merely a legend, the one-time companion of <CHARNAME> during <PRO_HISHER> mortal travails, told the tale that he had returned to his homeworld to introduce there the worship of the newest addition to the pantheon.  The truth of this could never be ascertained, but more than one intrepid adventurer made the attempt to find Gilalion.  So far, none has ever succeeded.~
+@28   = ~Tsujatha Melalor and Lady <CHARNAME> celebrated their nuptials anew when they returned to Amn.  Together they became the mightiest heroes of their age; even without the blood of Bhaal in <CHARNAME>'s veins, none could stand before their combined power.  They destroyed evil wherever they found it, and they dwelt in bliss for many years.  Their eldest son was the warrior-wizard who struck the tyranny of the Cowled Wizards from Amn, and they lived to see it.  At last, however, one of their many enemies successfully struck at <CHARNAME>.  The poison of the wound in her heart was drawn out by Tsujatha's own lips, and she survived.  Tsujatha was not so fortunate.  Before he died, however, <CHARNAME> took him in her arms, and they vanished from Toril.  Some claim they went to Arvanaith, others that they went to the Outer Planes.  Their son maintained that they returned to Gilalion so that his father could die on the soil of his birth.  Whatever the truth might be, neither <CHARNAME> nor Tsujatha were ever seen again.~
+@29   = ~<CHARNAME>'s continuing adventures on Faerun were as epic as those which had culminated at the Throne of Bhaal, and Tsujatha Melalor was <PRO_HISHER> companion for many years.  When at last <CHARNAME> gave up the Life, <PRO_HESHE> and Tsujatha parted ways.  It was then that Tsujatha made his home in the ruins of Myth Drannor.  There, amidst the ghosts of ancient days and former glories, Tsujatha founded a kingdom.  He drew Elves from throughout the Realms, and one of his illegitimate sons--a half-drow--took the throne after him.  Tsujatha did not end his days on Faerun, and no tale speaks of his death.  It was the belief of his sons that he had returned to Gilalion to take vengeance on Sillara for scorning his love, but no one has ever found Gilalion to either confirm or deny this account.~
+@30   = ~Tsujatha Melalor and Lady <CHARNAME> celebrated their nuptials anew when they returned to Amn.  Together they became the mightiest heroes of their age; even without the blood of Bhaal in <CHARNAME>'s veins, none could stand before their combined power.  They destroyed evil wherever they found it, and they dwelt in bliss for many years.  Their eldest daughter was the paladin who struck the tyranny of the Cowled Wizards from Amn, and they lived to see it.  At last, however, one of their many enemies successfully struck at <CHARNAME>.  The poison of the wound in her heart was drawn out by Tsujatha's own lips, and she survived.  Tsujatha was not so fortunate.  Before he died, however, <CHARNAME> took him in her arms, and they vanished from Toril.  Some claim they went to Arvanaith, others that they went to the Outer Planes.  Their daughter maintained that they returned to Gilalion so that her father could die on the soil of his birth.  Whatever the truth might be, neither <CHARNAME> nor Tsujatha were ever seen again.~
+@31   = ~Tsujatha Melalor and Lady <CHARNAME> celebrated their nuptials anew when they returned to Amn.  Together they became the mightiest heroes of their age; even without the blood of Bhaal in <CHARNAME>'s veins, none could stand before their combined power.  They destroyed evil wherever they found it, and they dwelt in bliss for many years.  At last, however, one of their many enemies successfully struck at <CHARNAME>.  The poison of the wound in her heart was drawn out by Tsujatha's own lips, and she survived.  Tsujatha was not so fortunate.  He died in the arms of <CHARNAME>, with darkness on his face, and his name has utterly vanished from the world.~
+@32 = ~Tsujatha's bridal bracelet.~
+@33 = ~This bracelet is the symbol of Tsujatha and <CHARNAME>'s nuptials.  It is of burnished gold and carved with Tsujatha's name in the runes of his own tongue.  <CHARNAME> suspects that the protection it grants her is due to Tsujatha's magic.
+
+Statistics:
+Magic Resistance: 50%~
+
+@34 = ~Are you, too, one of Sorkyst's goons?~ [TSUJA067]
+@35 = ~Better a living dog than a dead lion.~ [TSUJA000]
+@36 = ~I see that you continue on this dark path.~ [TSUJA003]
+
+@37 = ~What more can we do wrong?~ [TSUJA002]
+@38 = ~We do--well.~ [TSUJA001]
+@39 = ~We do--well.~ [TSUJA001]
+/*~No more shall I journey with you.~ [TSUJA004]*/
+@40 = ~Your choice is wise. I shall lead you well.~ [TSUJA005]
+@41 = ~I must rest to regain my strength.~ [TSUJA006]
+@42 = ~We are idle too long.~ [TSUJA007]
+@43 = ~Melalor!~ [TSUJA008]
+@44 = ~To Kresek with you!~ [TSUJA009]
+@45 = ~Die!~ [TSUJA010]
+@46 = ~I shall have you!~ [TSUJA011]
+@47 = ~True strike!~ [TSUJA012]
+@48 = ~I bleed.~ [TSUJA013]
+@49 = ~Sillara forgive me.~ [TSUJA014]
+@50 = ~Would you have me die?~ [TSUJA015]
+@51 = ~The trees here have eyes.~ [TSUJA016]
+@52 = ~I have not seen such squalor since I left Sigil.~ [TSUJA017]
+@53 = ~I do not like being under the earth. There is something in the lack of stars that I cannot endure.~ [TSUJA018]
+@54 = ~Daylight is best for traveling. We can see our enemies coming.~ [TSUJA019]
+@55 = ~These stars are still strange to me.~ [TSUJA020]
+@56 = ~What is your will?~ [TSUJA021]
+@57 = ~What would you with me?~ [TSUJA022]
+@58 = ~Speak.~ [TSUJA023]
+@59 = ~I am waiting.~ [TSUJA024]
+@60 = ~What is your desire?~ [TSUJA025]
+@61 = ~What do you wish of me?~ [TSUJA026]
+@62 = ~I shall do your will--for now.~ [TSUJA027]
+@63 = ~Shall I strike now?~ [TSUJA028]
+@64 = ~I do what I wish.~ [TSUJA029]
+@65 = ~I tread the path of my will, not of necessity.~ [TSUJA030]
+@66 = ~So shall it be done.~ [TSUJA031]
+@67 = ~This is all you wished of me?~  [TSUJA032]
+@68 = ~Is there nothing more?~ [TSUJA033]
+@69 = ~What is the purpose of this request?~ [TSUJA034]
+@70 = ~I stand and wait, it seems.~ [TSUJA035]
+@71 = ~Taste the wrath of the Miralyn!~ [TSUJA036] 
+@72 = ~Not now!~ [TSUJA037]
+@73 = ~We must alter our methods. These are not working.~ [TSUJA038]
+@74 = ~Am I your pack-horse? I can carry no more than I have.~ [TSUJA039]
+@75 = ~My magic is wasted.~ [TSUJA040]
+@76 = ~Tread lightly.~ [TSUJA041]
+@77 = ~Seeing eyes are blind.~ [TSUJA042]
+@78 = ~I take what I wish.~ [TSUJA043]
+@79 = ~Lady Arlluvia~
+@1000  = ~Bring me, Tsujatha, a necromancer.~
+@5000 = ~Recover the Riose Sar for Tsujatha.
+
+Tsujatha Melalor has joined my party. He is in search of a family heirloom, which I have agreed to help him find. Our first lead is to speak to Flan Brel in the Bridge district.~
+
+@5001 = ~Recover the Riose Sar for Tsujatha.
+
+After some quite effective *persuasion* on Tsujatha's part, Flan Brel has betrayed his master to us. Sorkyst can be found in the North Forest. After giving us this information, Flan Brel met with his untimely demise at the hands of Tsujatha.~
+
+@5002 = ~Recover the Riose Sar for Tsujatha.
+
+We have agreed to go to the Prison to rescue a man named Javin for Flan Brel. In return, Flan Brel has promised to give us the location of Sorkyst, the thief of Tsujatha's treasure.~
+
+@5003 = ~Recover the Riose Sar for Tsujatha.
+
+We have rescued Javin for Flan Brel, and in exchange we have learned that Sorkyst can be found in the North Forest. I was successful in persuading Tsujatha not to kill Flan Brel.~
+
+@5004 = ~Recover the Riose Sar for Tsujatha.
+
+We have rescued Javin for Flan Brel, and we have learned that Sorkyst can be found in the North Forest. After giving us this information, Flan Brel met with his untimely demise at the hands of Tsujatha.~
+
+@5005 = ~Recover the Riose Sar for Tsujatha.
+
+We have rescued Javin from his captors, and we are to return to Flan Brel for the information he has promised us. I hope for his sake that he keeps his word. I may not be able to keep Tsujatha in check if Flan Brel betrays our trust.~
+
+@5006 = ~Recover the Riose Sar for Tsujatha.
+
+We have found Sorkyst, the thief of Tsujatha's heirloom, and we have slain him. Tsujatha again has the ring of his father, but he has decided to remain with me, to finish my quest.~
+
+@5007 = ~Recover the Riose Sar for Tsujatha.
+
+We have found Sorkyst, the thief of Tsujatha's heirloom, and we have slain him. I have sent Tsujatha away. I doubt I ever see him again.~
+
+@5008 = ~Recover the Riose Sar for Tsujatha.
+
+We have found Sorkyst, the thief of Tsujatha's heirloom, and we have slain him. Tsujatha again has the ring of his father, but he has decided to remain with me, perhaps for personal reasons.~
+
+@5009 = ~Recover the Riose Sar for Tsujatha.
+
+We have found Sorkyst, the thief of Tsujatha's heirloom, and we have slain him. Tsujatha again has the ring of his father, but he has decided to remain with me. His love for me is truly without limit.~
+

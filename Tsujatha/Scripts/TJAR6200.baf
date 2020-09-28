@@ -1,0 +1,98 @@
+IF
+   Global("StartEndBios","AR6200",1)
+   InParty("Tsujath")
+   Global("TsujathaBio","GLOBAL",0)
+   Global("TsujathaRomanceActive","GLOBAL",2)
+   Global("PlayerChoseEssence","GLOBAL",1)
+THEN
+   RESPONSE #100
+      SetGlobal("TsujathaBio","GLOBAL",1)
+      TextScreen("TSUJAND1")
+END
+
+IF
+   Global("StartEndBios","AR6200",1)
+   InParty("Tsujath")
+   Global("TsujathaBio","GLOBAL",0)
+   Global("PlayerChoseEssence","GLOBAL",1)
+   OR(2)
+   Global("TsujathaRomanceActive","GLOBAL",0)
+   Global("TsujathaRomanceActive","GLOBAL",3)
+THEN
+   RESPONSE #100
+      SetGlobal("TsujathaBio","GLOBAL",1)
+      TextScreen("TSUJAND2")
+END
+
+
+
+IF
+   Global("StartEndBios","AR6200",1)
+   InParty("Tsujath")
+   Global("TsujathaBio","GLOBAL",0)
+   Global("TsujathaRomanceActive","GLOBAL",2)
+   Global("PlayerChoseEssence","GLOBAL",0)
+   !Dead("Balth")
+THEN
+   RESPONSE #100
+      SetGlobal("TsujathaBio","GLOBAL",1)
+      TextScreen("TSUJAND3")
+END
+
+
+
+
+IF
+   Global("StartEndBios","AR6200",1)
+   InParty("Tsujath")
+   Global("TsujathaBio","GLOBAL",0)
+   Global("TsujathaRomanceActive","GLOBAL",2)
+   Global("PlayerChoseEssence","GLOBAL",0)
+   Global("TsuBabyBoy","GLOBAL",1)
+THEN
+   RESPONSE #100
+      SetGlobal("TsujathaBio","GLOBAL",1)
+      TextScreen("TSUJAND3")
+END
+
+IF
+   Global("StartEndBios","AR6200",1)
+   InParty("Tsujath")
+   Global("TsujathaBio","GLOBAL",0)
+   Global("PlayerChoseEssence","GLOBAL",0)
+   OR(2)
+   Global("TsujathaRomanceActive","GLOBAL",0)
+   Global("TsujathaRomanceActive","GLOBAL",3)
+THEN
+   RESPONSE #100
+      SetGlobal("TsujathaBio","GLOBAL",1)
+      TextScreen("TSUJAND4")
+END
+
+IF
+   Global("StartEndBios","AR6200",1)
+   InParty("Tsujath")
+   Global("TsujathaBio","GLOBAL",0)
+   Global("TsujathaRomanceActive","GLOBAL",2)
+   Global("PlayerChoseEssence","GLOBAL",0)
+   Global("TsuBabyGirl","GLOBAL",1)
+THEN
+   RESPONSE #100
+      SetGlobal("TsujathaBio","GLOBAL",1)
+      TextScreen("TSUJAND5")
+END
+
+
+IF
+   Global("StartEndBios","AR6200",1)
+   InParty("Tsujath")
+   Global("TsujathaBio","GLOBAL",0)
+   Global("TsujathaRomanceActive","GLOBAL",2)
+   Global("PlayerChoseEssence","GLOBAL",0)
+   Global("TsuNoKids","GLOBAL",1)
+THEN
+   RESPONSE #100
+      SetGlobal("TsujathaBio","GLOBAL",1)
+      TextScreen("TSUJAND6")
+END
+

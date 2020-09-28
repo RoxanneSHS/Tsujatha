@@ -1,0 +1,22 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId("TSUJATH")
+		Wait(1)
+
+		SmallWait(5)
+		FaceObject("Flan")
+		SmallWait(5)
+		ActionOverride("Flan",FaceObject("TSUJATH"))
+		Wait(2)
+		ForceSpell("Flan",CUTSCENE_FLESH_TO_STONE)
+		SmallWait(10)
+		Wait(3)
+		ForceSpell("Flan",WIZARD_MELF_ACID_ARROW)
+		Wait(1)
+		EndCutSceneMode()
+END
+
+
+

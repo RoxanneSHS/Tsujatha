@@ -1,0 +1,8 @@
+IF
+  Global("TsujathExists","AR0411",0)
+THEN
+ RESPONSE #100
+  SetGlobal("TsujathExists","AR0411",1)
+  CreateCreature("Tsujath",[2843.2579],7)
+  Continue()
+END

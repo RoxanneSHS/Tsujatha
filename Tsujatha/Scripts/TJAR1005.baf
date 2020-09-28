@@ -1,0 +1,17 @@
+IF
+  Global("TJGuardExists","AR1005",0)
+  InParty("Tsujath")
+THEN
+ RESPONSE #100
+  SetGlobal("TJGuardExists","AR1005",1)
+  CreateCreature("TJGUARD",[742.746],11)
+END
+
+IF
+  Global("JavinExists","AR1005",0)
+  InParty("Tsujath")
+THEN
+ RESPONSE #100
+  SetGlobal("JavinExists","AR1005",1)
+  CreateCreature("JAVIN",[626.843],11)
+END

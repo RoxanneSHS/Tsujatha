@@ -1,0 +1,17 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId("TSUJATH")
+		Wait(1)
+		MoveToObject("Anomen")
+		SmallWait(5)
+		FaceObject("Anomen")
+		SmallWait(5)
+		ActionOverride("Anomen",FaceObject("TSUJATH"))
+	        ForceSpell("Anomen",WIZARD_FINGER_OF_DEATH_IGNORE_RESISTANCE)
+		Wait(1)
+		EndCutSceneMode()
+END
+
+

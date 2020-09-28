@@ -1,0 +1,69 @@
+IF
+  !Global("TsujathaRomanceActive","GLOBAL",0)
+  !Global("TsujathaRomanceActive","GLOBAL",3)
+  Global("TsujathaMatch","GLOBAL",1)
+  See(Player1)
+  CombatCounter(0)
+OR(5)
+  Global("TsujathaLoveTalk","LOCALS",15)
+  Global("TsujathaLoveTalk","LOCALS",27)
+  Global("TsujathaLoveTalk","LOCALS",35)
+  Global("TsujathaLoveTalk","LOCALS",39)
+  Global("TsujathaLoveTalk","LOCALS",51)
+THEN
+ RESPONSE #100
+  PlaySong(0)
+  PlaySound("TSUJALOV")
+  IncrementGlobal("TsujathaLoveTalk","LOCALS",1)
+  RealSetGlobalTimer("TsujathaLoveTalkTime","GLOBAL",1)
+  Interact(Player1)
+END
+
+
+
+/*
+IF
+ Global("TsujathaMatch","GLOBAL",1)
+ Global("TsujathaRomanceActive","GLOBAL",1)
+ Global("TsujathaLoveTalk","LOCALS",16)
+ GlobalTimerExpired("TsujathaRomance","GLOBAL")
+ !AreaType(DUNGEON)
+ !StateCheck(Player1,STATE_SLEEPING)
+ InParty(Myself)
+ See(Player1)
+THEN
+ RESPONSE #100
+  IncrementGlobal("TsujathaLovetalk","LOCALS",1)
+  Interact(Player1)
+END
+
+IF
+ Global("TsujathaMatch","GLOBAL",1)
+ Global("TsujathaRomanceActive","GLOBAL",1)
+ Global("TsujathaLoveTalk","LOCALS",36)
+ GlobalTimerExpired("TsujathaRomance","GLOBAL")
+ !AreaType(DUNGEON)
+ !StateCheck(Player1,STATE_SLEEPING)
+ InParty(Myself)
+ See(Player1)
+THEN
+ RESPONSE #100
+  IncrementGlobal("TsujathaLovetalk","LOCALS",1)
+  Interact(Player1)
+END
+
+IF
+ Global("TsujathaMatch","GLOBAL",2)
+ Global("TsujathaRomanceActive","GLOBAL",1)
+ Global("TsujathaLoveTalk","LOCALS",40)
+ GlobalTimerExpired("TsujathaRomance","GLOBAL")
+ !AreaType(DUNGEON)
+ !StateCheck(Player1,STATE_SLEEPING)
+ InParty(Myself)
+ See(Player1)
+THEN
+ RESPONSE #100
+  IncrementGlobal("TsujathaLovetalk","LOCALS",1)
+  Interact(Player1)
+END
+*/

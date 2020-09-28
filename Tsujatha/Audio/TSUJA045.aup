@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<audacityproject projname="you were willing to die for my sake_data" version="1.1.0" audacityversion="1.2.1" sel0="0.0000000000" sel1="4.9764181007" vpos="0" h="0.0000000000" zoom="105.4975665984" rate="44100.000000" >
+	<tags title="" artist="" album="" track="-1" year="" genre="-1" comments="" id3v2="1" />
+	<wavetrack name="you were willing to die for my sake" channel="2" linked="0" offset="0.00000000" rate="44100.000000" gain="1.000000" pan="0.000000" >
+		<sequence maxsamples="524288" sampleformat="131073" numsamples="218624" >
+			<waveblock start="0" >
+				<simpleblockfile filename='b00003.au' len='218624' min='-0.999939' max='0.576135' rms='0.069685'/>
+			</waveblock>
+		</sequence>
+		<envelope numpoints='0'>
+		</envelope>
+	</wavetrack>
+</audacityproject>

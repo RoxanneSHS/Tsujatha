@@ -1,0 +1,265 @@
+IF
+Global("TsujathaRomanceActive","GLOBAL",2)
+Alignment(Player1,MASK_GOOD)
+Global("TsujathaTOBCheck","GLOBAL",0)
+OR(3)
+ Race(Player1,HUMAN)
+ Race(Player1,HALF_ELF)
+ Race(Player1,ELF)
+THEN
+ RESPONSE #100
+  RealSetGlobalTimer("TsujathaLoveTalkTimeTOB","GLOBAL",1000)
+  SetGlobal("TsujathaLoveTalkTOB","LOCALS",1)
+  SetGlobal("TsujathaTOBCheck","GLOBAL",1)
+END
+
+
+IF
+  InParty(Myself)
+  GlobalGT("SolaTalk","GLOBAL",14)
+OR(2)
+  Global("TsujathaRomanceActive","GLOBAL",1)
+  Global("TsujathaRomanceActive","GLOBAL",2)
+THEN
+ RESPONSE #100
+  SetGlobal("TsujathaRomanceActive","GLOBAL",3)
+END
+
+IF
+  InParty(Myself)
+  RealGlobalTimerExpired("TsujathaLoveTalkTimeTOB","GLOBAL")
+  Global("TsujathaRomanceActive","GLOBAL",2)
+  !AreaType(DUNGEON)
+  See(Player1)
+  CombatCounter(0)
+OR(6)
+  Global("TsujathaLoveTalkTOB","LOCALS",1)
+  Global("TsujathaLoveTalkTOB","LOCALS",3)
+  Global("TsujathaLoveTalkTOB","LOCALS",7)
+  Global("TsujathaLoveTalkTOB","LOCALS",9)
+  Global("TsujathaLoveTalkTOB","LOCALS",11)
+  Global("TsujathaLoveTalkTOB","LOCALS",15)
+THEN
+ RESPONSE #100
+  IncrementGlobal("TsujathaLoveTalkTOB","LOCALS",1)
+  Interact(Player1)
+END
+
+
+
+IF
+  InParty(Myself)
+  RealGlobalTimerExpired("TsujathaLoveTalkTimeTOB","GLOBAL")
+  !Global("TsujathaRomanceActive","GLOBAL",0)
+  !Global("TsujathaRomanceActive","GLOBAL",3)
+  !AreaType(DUNGEON)
+  See(Player1)
+  CombatCounter(0)
+  !See([ENEMY])
+  !Range([NEUTRAL],10)
+OR(8)
+  Global("TsujathaLoveTalkTOB","LOCALS",2)
+  Global("TsujathaLoveTalkTOB","LOCALS",4)
+  Global("TsujathaLoveTalkTOB","LOCALS",6)
+  Global("TsujathaLoveTalkTOB","LOCALS",8)
+  Global("TsujathaLoveTalkTOB","LOCALS",10)
+  Global("TsujathaLoveTalkTOB","LOCALS",12)
+  Global("TsujathaLoveTalkTOB","LOCALS",14)
+  Global("TsujathaLoveTalkTOB","LOCALS",16)
+THEN
+ RESPONSE #100
+   RealSetGlobalTimer("TsujathaLoveTalkTimeTOB","GLOBAL",2400)
+   IncrementGlobal("TsujathaLoveTalkTOB","LOCALS",1)
+END
+
+IF
+ Global("TsujathaRomanceActive","GLOBAL",2)
+ Global("TsuSaradushTalk","GLOBAL",0)
+ Global("SaradushSacked","GLOBAL",1)
+ InParty(Myself)
+ See(Player1)
+THEN
+ RESPONSE #100
+  SetGlobal("TsuSaradushTalk","GLOBAL",1)
+  Dialog(Player1)
+END
+
+IF
+Global("TsujathaRomanceActive","GLOBAL",2)
+OR(2)
+Global("AnomenRomanceActive","GLOBAL",1)
+Global("AnomenRomanceActive","GLOBAL",2)
+THEN
+RESPONSE #100
+SetGlobal("AnomenRomanceActive","GLOBAL",3)
+END
+
+
+IF
+Global("TsujathaRomanceActive","GLOBAL",2)
+OR(2)
+Global("H#ValygarRomanceActive","GLOBAL",1)
+Global("H#ValygarRomanceActive","GLOBAL",2)
+THEN
+RESPONSE #100
+SetGlobal("H#ValygarRomanceActive","GLOBAL",3)
+END
+
+IF
+Global("TsujathaRomanceActive","GLOBAL",2)
+OR(2)
+Global("imoenromanceactive","GLOBAL",1)
+Global("imoenromanceactive","GLOBAL",2)
+THEN
+RESPONSE #100
+SetGlobal("imoenromanceactive","GLOBAL",4)
+END
+
+IF
+Global("TsujathaRomanceActive","GLOBAL",2)
+OR(2)
+Global("E3FadeRomanceActive","GLOBAL",1)
+Global("E3FadeRomanceActive","GLOBAL",2)
+THEN
+RESPONSE #100
+SetGlobal("E3FadeRomanceActive","GLOBAL",3)
+END
+
+IF
+Global("TsujathaRomanceActive","GLOBAL",2)
+OR(2)
+Global("ChloeRomanceActiveCR","GLOBAL",1)
+Global("ChloeRomanceActiveCR","GLOBAL",2)
+THEN
+RESPONSE #100
+SetGlobal("ChloeRomanceActiveCR","GLOBAL",3)
+END
+
+IF
+Global("TsujathaRomanceActive","GLOBAL",2)
+OR(2)
+Global("EdwinRomanceActive","GLOBAL",1)
+Global("EdwinRomanceActive","GLOBAL",2)
+THEN
+RESPONSE #100
+SetGlobal("EdwinRomanceActive","GLOBAL",3)
+END
+
+IF
+Global("TsujathaRomanceActive","GLOBAL",2)
+OR(2)
+Global("J#KelseyRomanceActive","GLOBAL",1)
+Global("J#KelseyRomanceActive","GLOBAL",2)
+THEN
+RESPONSE #100
+SetGlobal("J#KelseyRomanceActive","GLOBAL",3)
+END
+
+IF
+ InParty(Myself)
+ AreaCheck("AR5000")
+ Global("TsuSeeSaradushTalk","GLOBAL",0)
+THEN
+ RESPONSE #100
+  IncrementGlobal("TsuSeeSaradushTalk","GLOBAL",1)
+  StartDialogueNoSet(Player1)
+END
+
+IF
+ InParty(Myself)
+ AreaCheck("AR6101")
+ Global("TsuSendaiEnclaveTalk","GLOBAL",0)
+THEN
+ RESPONSE #100
+  IncrementGlobal("TsuSendaiEnclaveTalk","GLOBAL",1)
+  StartDialogueNoSet(Player1)
+END
+
+IF
+ InParty(Myself)
+ AreaCheck("AR5500")
+ Global("TsujathaProposalTalk","GLOBAL",0)
+ Global("TsujathaRomanceActive","GLOBAL",2)
+THEN
+ RESPONSE #100
+ IncrementGlobal("TsujathaProposalTalk","GLOBAL",1)
+ StartDialogueNoSet(Player1)
+ END
+
+IF
+Global("TsujathaRomanceActive","GLOBAL",2)
+Global("TsuGodTalk","GLOBAL",0)
+Dead("Illasera")
+THEN
+RESPONSE #100
+SetGlobal("TsuGodTalk","GLOBAL",1)
+END
+
+
+IF
+Global("TsuDraconisTalk","GLOBAL",0)
+Dead("BAZDRA02")
+THEN
+RESPONSE #100
+SetGlobal("TsuDraconisTalk","GLOBAL",1)
+Dialog(Player1)
+END
+
+IF
+Global("TsujathaRomanceActive","GLOBAL",2)
+Global("TsuPostWraithTalk","GLOBAL",0)
+Dead("HGWRA01")
+THEN
+RESPONSE #100
+SetGlobal("TsuPostWraithTalk","GLOBAL",1)
+Dialog(Player1)
+END
+
+IF
+Global("TsujathaRomanceActive","GLOBAL",2)
+Global("TsuLostInnocence","GLOBAL",0)
+Dead("CHALSLAY")
+THEN
+RESPONSE #100
+SetGlobal("TsuLostInnocence","GLOBAL",1)
+Dialog(Player1)
+END
+
+
+IF
+Global("TsujathaRomanceActive","GLOBAL",2)
+Global("TsuChildrenLT","GLOBAL",0)
+Dead("Balth")
+THEN
+RESPONSE #100
+SetGlobal("TsuChildrenLT","GLOBAL",1)
+END
+
+
+IF
+!Alignment(Player1,MASK_GOOD)
+OR(2)
+Global("TsujathaRomanceActive","GLOBAL",1)
+Global("TsujathaRomanceActive","GLOBAL",2)
+THEN
+RESPONSE #100
+SetGlobal("TsujathaRomanceActive","GLOBAL",3)
+END
+
+IF
+Global("TsujathaMarried","GLOBAL",1)
+Global("TsuBracelet","LOCALS",0)
+THEN
+RESPONSE #100
+GiveItemCreate("TSJBRAC",Player1,0,0,0)
+SetGlobal("TsuBracelet","LOCALS",1)
+END
+
+
+IF
+  HotKey(J)
+THEN
+  RESPONSE #100
+    StartCutSceneMode()
+    StartCutScene("TSJFIX")
+END
